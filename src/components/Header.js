@@ -8,9 +8,9 @@ const Header = () => {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           {/* logo */}
-          <a>
-            <img src={Logo} alt='' />
-          </a>
+        
+          <img src={Logo} alt='' />
+          
           {/* button */}
           <button className='btn btn-sm'></button>
         </div>

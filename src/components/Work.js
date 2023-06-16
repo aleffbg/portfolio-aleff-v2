@@ -25,7 +25,7 @@ const Work = () => {
                 These are jobs for companies, academics, and to 
                 improve my skills.
               </p>
-              <button className='btn btn-sm'><a href='https://github.com/aleffbg?tab=repositories' target='_blank'>View all my projects</a></button>
+              <button className='btn btn-sm'><a href='https://github.com/aleffbg?tab=repositories' target='_blank' rel='noreferrer'>View all my projects</a></button>
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>
@@ -35,7 +35,7 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt='' />
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'><a href='https://aleffbg.github.io/SiteMenuOnline/' target='_blank'>Aleff Burger Site</a></span>
+                <span className='text-gradient'><a href='https://aleffbg.github.io/SiteMenuOnline/' target='_blank' rel='noreferrer'>Aleff Burger Site</a></span>
               </div>
               {/* subtitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
@@ -52,7 +52,7 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt='' />
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'><a href='https://github.com/aleffbg/helpsoft_bycode.git' target='_blank'>PrevMoc Site</a></span>
+                <span className='text-gradient'><a href='https://github.com/aleffbg/helpsoft_bycode.git' target='_blank' rel='noreferrer'>PrevMoc Site</a></span>
               </div>
               {/* subtitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
@@ -66,7 +66,7 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt='' />
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'><a href='https://aleffbg.github.io/portfolio_aleff/' target='_blank'>Previous portfolio</a></span>
+                <span className='text-gradient'><a href='https://aleffbg.github.io/portfolio_aleff/' target='_blank' rel='noreferrer'>Previous portfolio</a></span>
               </div>
               {/* subtitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>

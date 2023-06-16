@@ -58,7 +58,7 @@ const About = () => {
             </div>
           </div>
           <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'><a href='https://api.whatsapp.com/send?phone=5577981257967&text=Ol%C3%A1!' target='_blank'>Contact me</a></button>
+              <button className='btn btn-lg'><a href='https://api.whatsapp.com/send?phone=5577981257967&text=Ol%C3%A1!' target='_blank' rel='noreferrer'>Contact me</a></button>
               <Link to='https://drive.google.com/file/d/1Q_HsMmOjg03J881wFOKl23h6xdwwdNP0/view?usp=share_link' target='_blank' className='text-gradient btn-link'>
                 Donwload CV
               </Link>
