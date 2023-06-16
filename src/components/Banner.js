@@ -9,9 +9,6 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
-// link
-import { Link } from 'react-router-dom';
-
 
 const Banner = () => {
   return (
@@ -21,10 +18,10 @@ const Banner = () => {
           {/* text */}
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <motion.h1 variants={fadeIn('up', 0.3)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='text-[55px] font-bold leading-[0.8] lg:text-[90px]'>
-              ALEFF <spam>GUIMARÃES</spam>
+              ALEFF <span>GUIMARÃES</span>
             </motion.h1>
             <motion.div variants={fadeIn('up', 0.4)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
-              <spam className='text-white mr-4'>I am a</spam>
+              <span className='text-white mr-4'>I am a</span>
               <TypeAnimation
                 sequence={[
                   'Developer',
