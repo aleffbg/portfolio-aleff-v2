@@ -40,20 +40,20 @@ const Banner = () => {
               expanding your business to another level.
             </motion.p>
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'><a href="https://api.whatsapp.com/send?phone=5577981257967&text=Ol%C3%A1!">Contact me</a></button>
-              <a href='#' className='text-gradient btn-link'>
+              <button className='btn btn-lg'><a href='https://api.whatsapp.com/send?phone=5577981257967&text=Ol%C3%A1!' target='_blank'>Contact me</a></button>
+              <h1 className='text-gradient btn-link'>
                 My Portfolio
-              </a>
+              </h1>
             </motion.div>
             {/* sociais */}
             <motion.div variants={fadeIn('up', 0.7)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex text-[20] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='https://www.linkedin.com/in/%C3%A1leff-borges-guimar%C3%A3es-055925192/'>
+              <a href='https://www.linkedin.com/in/%C3%A1leff-borges-guimar%C3%A3es-055925192/' target='_blank'>
                 <FaLinkedin />
               </a>
-              <a href='https://github.com/aleffbg'>
+              <a href='https://github.com/aleffbg' target='_blank'>
                 <FaGithub />
               </a>
-              <a href='https://www.instagram.com/aleffguimaraez/'>
+              <a href='https://www.instagram.com/aleffguimaraez/' target='_blank'>
                 <FaInstagram />
               </a>
             </motion.div>
