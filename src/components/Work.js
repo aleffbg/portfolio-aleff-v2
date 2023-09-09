@@ -16,16 +16,14 @@ const Work = () => {
           <motion.div variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.3}} className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
             {/* text */}
             <div>
-              <h2 className='h2 leading-tight'>
+              <h2 className='h2 leading-tight' style={{ fontFamily: 'Arial' }}>
                 My last <br />
                 works.
               </h2>
-              <p className='max-w-sm mb-16'>
-                These are works I've done in the last few months. 
-                These are jobs for companies, academics, and to 
-                improve my skills.
+              <p className='mb-20' style={{ fontFamily: 'Arial' }}>
+              I share a selection of my work and projects, combining personal and academic experiences.
               </p>
-              <button className='btn btn-sm'><a href='https://github.com/aleffbg?tab=repositories' target='_blank' rel='noreferrer'>View all my projects</a></button>
+              <button className='btn btn-sm' ><a href='https://github.com/aleffbg?tab=repositories' target='_blank' rel='noreferrer' >View all my projects</a></button>
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>

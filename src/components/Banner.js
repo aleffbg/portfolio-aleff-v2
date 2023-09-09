@@ -35,7 +35,7 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </motion.div>
-            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0'>
+            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0' style={{ fontFamily: 'Arial' }}>
               Hello, I make websites and designs for your digital platforms, 
               expanding your business to another level.
             </motion.p>

@@ -20,38 +20,42 @@ const About = () => {
         {/* text */}
         <motion.div variants={fadeIn('left', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.3}} className='flex-1'>
           <h2 className='h2'>About me.</h2>
-          <h3 className='h3 mb-[30px]' style={{ fontSize: `${15}px`}}>
-            I'm a front-end and social media developer, 
-            of Brazilian nationality, with skills in JS, React, 
-            HTML, CSS, Python and some design platforms.
+          <h3 className='h3 mb-[50px]' style={{ fontSize: `${15}px`, lineHeight: '2'}}>
+          I am a Brazilian software developer with a strong skill set 
+          in various programming languages and design platforms. My expertise includes 
+          JavaScript, React, HTML, CSS, and Python. I have a deep passion for crafting 
+          user-friendly web interfaces and engaging social media experiences. My goal is to 
+          create innovative and visually appealing digital solutions that resonate with audiences. 
+          With a keen eye for design and a love for coding, I bring a unique blend of creativity 
+          and technical proficiency to every project I undertake.
           </h3>
           {/* stats */}
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={3} duration={5} /> : null}
+                {inView ? <span style={{ fontFamily: 'Arial' }}><CountUp start={0} end={3} duration={5} /></span> : null}
               </div>
-              <div className='font-primary text-sm tracking-[2px]'>
+              <div className='font-primary text-sm'>
                 Years of <br /> 
                 Experiense
               </div>
             </div>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={10} duration={3} /> : null}
+                {inView ? <span style={{ fontFamily: 'Arial' }}><CountUp start={0} end={10} duration={3} /></span> : null}
                 +
               </div>
-              <div className='font-primary text-sm tracking-[2px]'>
+              <div className='font-primary text-sm'>
                 Projects <br /> 
                 Completed
               </div>
             </div>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={100} duration={3} /> : null}
+                {inView ? <span style={{ fontFamily: 'Arial' }}><CountUp start={0} end={100} duration={3} /></span> : null}
                 +
               </div>
-              <div className='font-primary text-sm tracking-[2px]'>
+              <div className='font-primary text-sm'>
                 Satisfied <br /> 
                 Clients
               </div>
